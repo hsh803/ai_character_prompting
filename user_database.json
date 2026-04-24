@@ -1,0 +1,10 @@
+{
+    "user_1": {
+        "level": 1,
+        "mood_score": 0,
+        "visit_count": 1,
+        "last_visit": "2026-04-20 10:05",
+        "user_preferences": "",
+        "shared_context": "첫 번째 방문 때 주인 바뀌었는지 대화"
+    }
+}
