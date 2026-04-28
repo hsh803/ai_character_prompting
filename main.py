@@ -25,7 +25,7 @@ NEGATION_WORDS = ["싫어", "안 마셔", "못 마셔", "별로", "제외", "빼
 
 def update_memory(user_id, user_input, user_data):
     user_data['visit_count'] += 1
-    user_data['mood_score'] += 0.1
+    user_data['mood_score'] += 0.5
     user_data['last_visit'] = datetime.now().strftime("%Y-%m-%d %H:%M")
     # 1. Search for any item from BEVERAGE_MENU that exists in user_input
     found_beverages = [drink for drink in BEVERAGE_MENU if drink in user_input]
